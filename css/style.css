@@ -1,0 +1,99 @@
+/* ACSOCHKA 2016 */
+
+/* RESET ---------------------------------------------------------*/
+
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	color: #EFE1D8;
+	background-color: #B07650;
+	margin: 0;
+}
+
+	a {
+		color: #3C1902;
+		text-decoration: underline;
+	}
+
+		a:hover {
+		color: #EFDBCF;
+		}
+
+	.db {
+		outline: 1px solid red;
+	}
+
+/* LAYOUTS -------------------------------------------------------*/
+
+.page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+	.header {
+
+	}
+
+		.logo {
+			display: table;
+			margin: 0 auto;
+			text-decoration: none;
+			color: #F3E7DF;
+			margin-top: 35px;
+
+		}
+
+			.logo:hover .site_name {
+				color: #F3E7DF;
+
+			}
+
+			.logo_img {
+				border-radius: 50%;
+				width: 168px;
+				height: 168px;
+				border: 6px solid #825233;
+				display: block;
+				margin: 0 auto;
+			}
+
+			.site_name {
+				display: table;
+				margin: 30px auto 0;
+				font-size: 22px;
+				font-weight: bold;
+
+			}
+
+		.social_links {
+			padding: 0;
+			margin: 26px auto 0;
+			display: table;
+
+		}
+
+			.social_links li {
+				list-style-type: none;
+				font-size: 24px;
+				font-weight: bold;
+				display: block;
+				float: left;
+				margin: 0 15px;
+
+			}
+
+			.social_links a {
+				
+			}
+
+
+
+
+
+
+
+
+
+
+
+/* INDEX ---------------------------------------------------------*/
