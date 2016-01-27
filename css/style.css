@@ -23,7 +23,7 @@ body {
 		outline: 1px solid red;
 	}
 
-/* LAYOUTS -------------------------------------------------------*/
+/* HEADER -------------------------------------------------------*/
 
 .page {
 	width: 960px;
@@ -86,14 +86,93 @@ body {
 				
 			}
 
+/* CONTENT ---------------------------------------------------------*/
+.content {
 
+}
 
+	.posts {
 
+	}
 
+		.posts_preview {
 
+		}
 
+		.post_date {
+			font-size: 18px;
+			color: #3C1902;
 
+		}
 
+		.post_name {
+			display: inline-block;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 5px;
+			background-color: #F5D06E;
+			margin: 0;
 
+		}
 
-/* INDEX ---------------------------------------------------------*/
+			.post_name:hover {
+				color: #3C1902
+
+			}
+
+		.post_intro {
+
+		}
+
+			.readmore {
+				color: #5F361A;
+
+			}
+
+	.pagination {
+		padding: 0;
+		margin: 30px auto 0;
+		display: table;
+	}
+
+		.pagination li {
+			list-style-type: none;
+			font-size: 18px;
+			font-weight: bold;
+			display: block;
+			float: left;
+			margin: 0 15px;
+				}
+
+			.pagination a {
+				text-decoration: none;
+			}
+
+		.active {
+			border-radius: 100%;
+			border: 1px solid #F5D06E;
+			background-color: #F5D06E;
+			padding: 0 4px;
+			margin: 0;
+		}
+
+			.active:hover {
+				color: #3C1902
+			}
+
+		/* FOOTER ---------------------------------------------------------*/
+		.footer {
+			display: block;
+			margin-top: 100px;
+			color: #411F09;
+			border-top: 1px solid #411F09;
+			text-align: center;
+		}
+
+		.site_author {
+
+		}
+
+		.current_year {
+
+		}
